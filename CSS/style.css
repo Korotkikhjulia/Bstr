@@ -1,0 +1,13 @@
+.navbar-nav{
+    text-transform: uppercase;
+}
+
+.navbar-collapse li a::after {
+    content: '';
+    display:block;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    transition: all 0.5s;
+    transform: scale(0);
+}
